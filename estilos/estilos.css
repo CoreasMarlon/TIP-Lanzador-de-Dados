@@ -1,0 +1,101 @@
+.row {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.middle {
+    align-items: center;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.home {
+    min-width: 400px;
+    font-family: 'Londrina Solid', cursive;
+    background-image: linear-gradient(100deg, #1a0321, #8d0910);
+    background-attachment: fixed;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.indicador{
+    display: flex;
+    justify-content: center;
+}
+
+#status {
+    font-size: 100px;
+}
+
+.medal{
+    display: none;
+    width: 180px;
+    height: 250px;
+}
+
+.medal-activo{
+    display: flex;
+}
+
+.jugador1 {
+    justify-items: center;
+	width: 200px;
+    height: 200px;
+}
+
+.jugador2{
+    justify-items: center;
+	width: 200px;
+    height: 200px;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    transition: 0.2s;
+    border-radius: 6px;
+    border: 2px solid #a945c7;
+}
+
+.btn:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.3s;
+}

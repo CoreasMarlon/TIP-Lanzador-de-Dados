@@ -87,11 +87,13 @@
     background-color: transparent;
     padding: 15px 30px;
     color: #fff;
+    cursor: pointer;
     letter-spacing: 4px;
     font-size: 24px;
     transition: 0.2s;
     border-radius: 6px;
     border: 2px solid #a945c7;
+    outline: none;
 }
 
 .btn:hover{

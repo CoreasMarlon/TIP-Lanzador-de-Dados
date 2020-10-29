@@ -16,6 +16,6 @@ function randomIntFromInterval(min,max)
         document.getElementById("medal").classList.remove('medal-activo');
     }
 
-    document.getElementById("img1").src=`../img/img_${num1}.svg`;
-    document.getElementById("img2").src=`../img/img_${num2}.svg`;
+    document.getElementById("img1").src=`img/img_${num1}.svg`;
+    document.getElementById("img2").src=`img/img_${num2}.svg`;
 }
